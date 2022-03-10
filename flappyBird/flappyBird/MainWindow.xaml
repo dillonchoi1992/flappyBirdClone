@@ -6,22 +6,22 @@
         xmlns:local="clr-namespace:flappy_bird_clone"
         mc:Ignorable="d"
         Title="Flappy Bird Game WPF" Height="490" Width="540">
-    <Canvas Name="MyCanvas" Focusable="True" KeyDown="KeyisDown" KeyUp="KeyisUp" Background="LightBlue">
+    <Canvas Name="MyCanvas" Focusable="True" KeyDown="KeyisDown" KeyUp="KeyisUp" Background="Cyan">
         <Image Height="145" Width="200" Source="pack://application:,,,/Images/clouds.jpg" Canvas.Left="66" Canvas.Top="77" Tag="cloud" />
         <Image Height="145" Width="200" Source="pack://application:,,,/Images/clouds2.jpg" Canvas.Left="270" Canvas.Top="165" Tag="cloud" />
 
-        <Image Height="390" Width="66" Source="pack://application:,,,/Images/pipeBottom.jpg" Tag="obs1" Canvas.Left="101" Canvas.Top="237" />
+        <Image Height="390" Width="66" Source="pack://application:,,,/Images/pipeBottom.jpg" Tag="obs1" Canvas.Left="101" Canvas.Top="280" />
         <Image Height="390" Width="66" Source="pack://application:,,,/Images/pipeTop.jpg" Tag="obs1" Canvas.Left="101" Canvas.Top="-264" />
 
         <Image Height="390" Width="66" Source="pack://application:,,,/Images/pipeBottom.jpg" Tag="obs2" Canvas.Left="240" Canvas.Top="340" />
-        <Image Height="390" Width="66" Source="pack://application:,,,/Images/pipeTop.jpg" Tag="obs2" Canvas.Left="240" Canvas.Top="-143" />
+        <Image Height="390" Width="66" Source="pack://application:,,,/Images/pipeTop.jpg" Tag="obs2" Canvas.Left="240" Canvas.Top="-183" />
 
         <Image Height="390" Width="66" Source="pack://application:,,,/Images/pipeBottom.jpg" Tag="obs3" Canvas.Left="389" Canvas.Top="280" />
         <Image Height="390" Width="66" Source="pack://application:,,,/Images/pipeTop.jpg" Tag="obs3" Canvas.Left="389" Canvas.Top="-264" />
 
-        <Image Name="flappyBird" Height="36" Width="50" Source="pack://application:,,,/Images/flappyBird.jpg" Stretch="Fill" Canvas.Left="35" Canvas.Top="150" />
+        <Image Name="flappyBird" Height="42" Width="37" Source="pack://application:,,,/Images/player.jpg" Stretch="Fill" Canvas.Left="48" Canvas.Top="165" />
 
-        <Label Name="txtScore" FontSize="22" FontWeight="ExtraBold" Content="Score: 0" />
+        <Label Name="txtScore" FontSize="22" FontWeight="ExtraBold" Content="Score: 0" Canvas.Left="7" Canvas.Top="12" Height="80" Width="480" />
 
     </Canvas>
 </Window>

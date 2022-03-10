@@ -42,7 +42,7 @@ namespace flappy_bird_clone
         {
             txtScore.Content = $"Score: {score}";
 
-            flappyBirdHitBox = new Rect(Canvas.GetLeft(flappyBird), Canvas.GetTop(flappyBird), flappyBird.Width - 5, flappyBird.Height);
+            flappyBirdHitBox = new Rect(Canvas.GetLeft(flappyBird), Canvas.GetTop(flappyBird), flappyBird.Width - 4, flappyBird.Height);
 
             Canvas.SetTop(flappyBird, Canvas.GetTop(flappyBird) + gravity);
 
@@ -151,7 +151,7 @@ namespace flappy_bird_clone
         {
             gameTimer.Stop();
             gameOver = true;
-            txtScore.Content += "   OOOF! Press R to try again?";
+            txtScore.Content += "   OOOF! Press R to try again";
         }
 
 

@@ -13,6 +13,7 @@
     <None Remove="Images\flappyBird.jpg" />
     <None Remove="Images\pipeBottom.jpg" />
     <None Remove="Images\pipeTop.jpg" />
+    <None Remove="Images\player.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +22,7 @@
     <Resource Include="Images\flappyBird.jpg" />
     <Resource Include="Images\pipeBottom.jpg" />
     <Resource Include="Images\pipeTop.jpg" />
+    <Resource Include="Images\player.jpg" />
   </ItemGroup>
 
 </Project>
